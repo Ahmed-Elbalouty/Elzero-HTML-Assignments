@@ -1,39 +1,38 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>35to37</title>
-</head>
-<body>
-    <!--Assignment 1
-        1- input element and type=submit.
-        2- h1.
-        3- h2.
-        4- we write in html opening tag attribute named lang
-        and its value "en"....<html lang="en">.
-        5- in accessibility world 10 to 20 is the best.
-        6- we will give it an attribute named [tabindex="0"].
-        7-ARIA => stands for Accessible rich internet application.
-    -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>35to37</title>
+    </head>
+    <body>
+        <!--Assignment 1
+            1- input element and type=submit.
+            2- h1.
+            3- h2.
+            4- we write in html opening tag attribute named lang
+            and its value "en"....<html lang="en">.
+            5- in accessibility world 10 to 20 is the best.
+            6- we will give it an attribute named [tabindex="0"].
+            7-ARIA => stands for Accessible rich internet application.
+        -->
 
 
+        <!--Assignment 2-->
+        <div class="choose-skill">
+            <div class="skill" role="checkbox" 
+            tabindex="0" aria-checked="true" 
+            aria-labelledby="s1" >Python</div>
+            <label id="s1">Skill One</label>
 
-    <!--Assignment 2-->
-    <div class="choose-skill">
-        <div class="skill" role="checkbox" 
-        tabindex="0" aria-checked="true" 
-        aria-labelledby="s1" >Python</div>
-        <label id="s1">Skill One</label>
+            <div class="skill" role="checkbox" 
+            tabindex="0" aria-labelledby="s2">PHP</div>
+            <label id="s2">Skill Two</label>
 
-        <div class="skill" role="checkbox" 
-        tabindex="0" aria-labelledby="s2">PHP</div>
-        <label id="s2">Skill Two</label>
-
-        <div class="skill" role="checkbox" 
-        aria-labelledby="s3" tabindex="0">JavaScript</div>
-        <label id="s3">Skill Three</label>
-    </div>
-    <!--End of Assignment 2-->
-</body>
+            <div class="skill" role="checkbox" 
+            aria-labelledby="s3" tabindex="0">JavaScript</div>
+            <label id="s3">Skill Three</label>
+        </div>
+        <!--End of Assignment 2-->
+    </body>
 </html>
