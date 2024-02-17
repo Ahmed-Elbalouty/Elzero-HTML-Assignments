@@ -1,39 +1,42 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>24to27</title>
-    </head>
-    <body>
-        <!--Assignment 1-->
-        <form action="test.py" method="post">
-            <label>Username :</label><br/>
-            <input type="text" placeholder=" Enter username" required name="username"/> 
-            <hr/>
-            <label>Password :</label><br/>
-            <input type="password" placeholder="Enter password" name="password" />
-            <hr/>
-            <label>Mobile :</label><br/>
-            <input type="number" placeholder="Enter Mobile number" name="mobile number" />
-            <hr/>
-            <label>Email :</label><br/>
-            <input type="email" placeholder="Enter your Email" required name="email"/>
-            <hr/>
-            <label>subject :</label><br/>
-            <input type="text" placeholder="Enter Subject" name="subject"/><br/><br/>
-            <input type="hidden" value="Ahmed"/>
-            <input type="reset" value="Empty Form"/>&nbsp;&nbsp;&nbsp;
-            <input type="submit" value="Send Data"/>
-        </form>
-        <!-- End of Assignment 1-->
 
-        <hr/>
+<head>
+    <title>24to27</title>
+</head>
 
-        <!--Assignment 2-->
-        <form>
-            <input type="range"  name="range" min="100" max="500" value="400" step="50"/>
-            <br/>
-            <input type="submit" value="Send" />
-        </form>
-        <!-- End of Assignment 2-->
-    </body>
+<body>
+    <!--Assignment 1-->
+    <form action="test.py" method="post">
+        <label>Username :</label><br />
+        <input type="text" placeholder=" Enter username" required name="username" />
+        <hr />
+        <label>Password :</label><br />
+        <input type="password" placeholder="Enter password" name="password" />
+        <hr />
+        <label>Mobile :</label><br />
+        <input type="tel" placeholder="+20100(234)123" pattern="\+20100\([0-9]{3}\)[0-9]{3}" />
+        <hr />
+        <label>Email :</label><br />
+        <input type="email" placeholder="Enter your Email" required name="email" />
+        <hr />
+        <label>subject :</label><br />
+        <input type="text" placeholder="Enter Subject" name="subject" /><br /><br />
+        <input type="hidden" value="Ahmed" />
+        <input type="reset" value="Empty Form" />&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Send Data" />
+    </form>
+    <!-- End of Assignment 1-->
+
+    <hr />
+
+    <!--Assignment 2-->
+    <form>
+        <input type="range" name="range" min="100" max="500" value="400" step="50" />
+        <br />
+        <input type="submit" value="Send" />
+    </form>
+    <!-- End of Assignment 2-->
+</body>
+
 </html>
